@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="portfolioStyle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h3><i>Portfolio</i></h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navicon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title title-top" id="offcanvasNavbarLabel">Portfolio</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-underline">
+                <li class="nav-item">
+                  <a class="nav-link" 
+                   aria-current="page" href="#scrollspyheading1">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyheading2">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyheading3">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyheading4">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyheading5">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyheading6">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+      </nav>
+
+      <!-- home -->
+      <div class="container-fluid container1"  id="scrollspyheading1">
+        <div class="row row2" >
+            <div class="col-md-7 header">
+                <h2 class="name" style="text-align: center;">Hey there, <br>I am Taniya Machado!</h2>
+                <h2 class="prof typing-effect" id="typing-text"style="color:rgb(55, 155, 168)"></h2><br>
+                <i class="fa-brands fa-linkedin-in fa-xl icon"></i>
+                <a href="mailto:taniyamachado@gmail.com">
+                <i class="fa-regular fa-envelope fa-xl icon"></i></a>
+                <a href="https://www.instagram.com/taniya_machado08?igsh=YTJvMWI3Mmd6M3Rn">
+                <i class="fa-brands fa-instagram fa-xl icon"></i></a>
+            </div>
+            <div class="col-md-5">
+             <button type="submit" id="mode">
+             <i class="fa-solid fa-moon fa-2xl" style="color: #36b4d3;"></i>
+             </button>
+              <img src="profile pic.jpg" id="image_pic"
+              width="70%" height="425px">
+     
+            
+            </div>
+        </div>
+        </div>
+
+        <!-- personal_info -->
+        <div class="container-fluid about-section" id="scrollspyheading2">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="animate_heading">About Me</h2>
+              <div class="personal-info">
+                <h4 class="name-heading">Taniya Machado</h4>
+                <h5 class="profession">Aspiring Web Developer & Data Analyst</h5>
+                <p class="college"><i class="fa-solid fa-building-columns"></i> St. Xavier's College, Mumbai</p>
+              </div>
+              <div class="about-content mt-4">
+                <p>Hi! I’m Taniya, currently pursuing a Bachelor of Science in Information Technology, with a passion for web 
+                  development and data analysis. I am skilled in HTML, CSS, JavaScript, PHP, and Bootstrap, and I’ve gained 
+                  experience building responsive, user-friendly websites through my academic projects.</p>
+                <p>In addition to web technologies, I have knowledge of prominent programming languages like C, C++, Python, 
+                  and Java, as well as data analysis tools such as SQL.</p>
+                <p>Career Objective: I aim to leverage my creativity and analytical skills to contribute to innovative projects that make a real impact.</p>
+              </div>
+              <a href="Resume.pdf" download class="btn resume-btn mt-3">Download Resume</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- eduQual -->
+        <div class="container-fluid" id="scrollspyheading3">
+          <h2 class="animate_heading">Academics</h2>
+          <div class="container table-responsive-sm mt-4">
+        <table class="table table-hover text-center table-borderless">
+          <thead style="border-bottom: 2px solid rgb(158, 157, 157);">
+            <tr>
+                <th scope="col">Qualification</th>
+                <th scope="col">CGPA/percentage</th>
+                <th scope="col">Year</th>
+                <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="tr1">
+                <td>BscIT</td>
+                <td>9.33</td>
+                <td>2023-2024</td>
+                <td><a class = "links" href="BscIT sem 2 Marksheet.pdf" download>View</a></td>
+            </tr>
+            <tr id="tr2">
+                <td>Higher School</td>
+                <td>93.83%</td>
+                <td>2022-2023</td>
+                <td><a class = "links" href="12th marksheet.pdf" download>View</a></td>
+            </tr>
+            <tr id="tr3">
+                <td>Secondary School</td>
+                <td>93.60%</td>
+                <td>2020-2021</td>
+                <td><a class = "links" href="10th marksheet.pdf" download>View</a></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+        </div>
+
+        <!-- projects -->
+          <div class="container-fluid" id="scrollspyheading4">
+            <h2 class="animate_heading">Projects</h2>
+            <div class="container-fluid mainbox">
+            <div class="box mt-5">
+            <img src="img2.png" alt="Avatar" class="image">
+            <div class="overlay">
+            <div class="text"><h5>QR Code Generator</h5>
+              <p>API's based QR code generator. When scanned the user is directed to the web page.</p>
+            </div>
+            </div>
+            </div>
+            <div class="box mt-5">
+            <img src="img3.png" alt="Avatar" class="image" >
+            <div class="overlay">
+            <div class="text"><h5>To-Do List</h5>
+              <p>The user can add and delete the task. As well as mark it as done.</p>
+            </div>
+            </div>
+            </div>
+            <div class="box mt-5">
+            <img src="img12.png" alt="Avatar" class="image" >
+            <div class="overlay">
+            <div class="text"><h5>Digital Clock</h5>
+              <p>A digital clock which displays the time.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          <!-- <br><br> -->
+          <div class="container-fluid mainbox">
+            <div class="box mt-5">
+            <img src="img8.png" alt="Avatar" class="image">
+            <div class="overlay">
+            <div class="text"><h5>Sign Up Form</h5>
+            <p>A form which takes user's information and stores in the database.</p>
+            </div>
+            </div>
+            </div>
+            <div class="box mt-5">
+            <img src="img11.png" alt="Avatar" class="image" >
+            <div class="overlay">
+            <div class="text"><h5>Digital Newspaper</h5>
+              <p>A website which provides news. </p>
+            </div>
+            </div>
+            </div>
+            <div class="box mt-5">
+            <img src="img10.png" alt="Avatar" class="image" >
+            <div class="overlay">
+            <div class="text"><h5>Have a Cup</h5>
+              <p>A coffee shop website which generates bill based on the order details.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+          
+    </div>
+
+      <!-- skills-->
+      <div class="container-fluid" id="scrollspyheading5">
+        <h2 class="animate_heading">Skills</h2><br>
+        <div class="containermain"> 
+        <DIV class="content mt-4">
+          <div class="img">
+          <i class="fa-solid fa-code fa-2xl skill_img"></i>
+            </div><br>
+              <H2 class="imgHeader">Languages</H2>
+              <p class="description">Fontend Languages: HTML, CSS, JavaScript and Bootstrap.
+                Backend Languages: XML, PHP.
+              </p>
+          </div>
+          
+      <DIV class="content mt-4">
+          <div class="img">
+          <i class="fa-solid fa-chart-simple fa-2xl skill_img"></i>
+          </div><br>
+              <H2 class="imgHeader">Analytical</H2>
+              <p class="description">Languages learned for data analysis includes SQL, R, 
+                Python (Pandas, Numpy).
+              </p>
+          </div>
+
+      <DIV class="content mt-4">
+          <div class="img">
+            <i class="fa-solid fa-palette fa-2xl skill_img"></i>
+            </div><br>
+              <H2 class="imgHeader">Creativity</H2>
+              <p class="description">I am fond of Physical creatives as well as digital creatives. 
+                And have basic knowledge on Canva.
+              </p>
+          </div>
+          <DIV class="content mt-4">
+            <div class="img">
+              <i class="fa-solid fa-list-check fa-2xl skill_img"></i>
+            </div><br>
+                <H2 class="imgHeader">Time Management</H2>
+                <p class="description">I am quite good at time management which helps me to complete my 
+                    work before time. 
+                    
+                </p>
+        </DIV>
+    </div>
+    </div>
+    
+    <!-- contact -->
+    <div class="container-fluid" id="scrollspyheading6">
+              <h2 class="animate_heading">Contact</h2>
+          <div class="row box1">
+              <div class="col-md-6">
+          <div class="box1Content">
+              <i class="fa-solid fa-user"></i>&nbsp;<span>Taniya Machado</span>
+          </div>
+          <br>
+          <div class="box1Content">
+            <i class="fa-solid fa-location-dot"></i>&nbsp;<span>Mumbai, India</span>
+          </div>
+          <br>
+          <div class="box1Content">
+              <i class="fa-solid fa-phone"></i>&nbsp;<span>+91 9271975165</span>
+          </div>
+          <br>
+          <div class="box1Content">
+              <i class="fa-solid fa-paper-plane"></i>&nbsp;<span>taniyamachado@gmail.com</span>
+          </div>
+          <br>
+          <div style="font-size: 16px; font-weight: 300;">
+              <p>I value your opinion and strive to make my service better with your feedback. 
+                  Your suggestions are crucial in helping me understand 
+                  what works well and where I can improve.</p>
+              <p>Please take a moment to share your thoughts by filling out the brief form 
+                  on the side screen. Your input will directly influence my efforts to enhance 
+                  your experience.</p>
+          </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <form id="contact-form" action="PortfolioData.php" method="POST">
+              <div class="input-group mb-3">
+                  <!-- <span class="input-group-text" id="basic-addon1">Your Name:</span> -->
+                  <input type="text" class="form-control" placeholder="Enter your name" 
+                  aria-label="Enter your Name" name="name" required>
+                </div>
+                
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" name="email" placeholder="Enter Email id" required aria-label="Enter Email id" aria-describedby="basic-addon2">
+                  <span class="input-group-text" style="font-weight: 200;">@example.com</span>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="tel" class="form-control" name="phoneno" id="telno" 
+                    placeholder="Enter Your Mobile No" required>
+                  </div>
+                
+                <div class="input-group">
+                  <textarea class="form-control"  name="feedback"
+                  placeholder="Enter Your Suggestion" aria-label="With textarea"
+                  rows="5" required></textarea>
+                </div>
+
+                <div class="btngroup">
+                  <button type="submit" class="btn btn-primary mt-3 mb-3 btn2">
+                    Envair</button>
+                    <button type="button" class="btn btn-primary mt-3 mb-3 btn3" onclick="clearForm()">Clear</button>
+              </div>
+              </form>
+          </div>
+      </div>
+      
+    </div>
+    
+    <script>
+      // JavaScript for typing effect
+      const text = "Web Developer & Data Analyst";
+      let index = 0;
+      const typingSpeed = 150; // Speed of typing in milliseconds
+      const element = document.getElementById("typing-text");
+      function typeWriter() {
+          if (index < text.length) {
+              element.textContent += text.charAt(index);
+              index++;
+              setTimeout(typeWriter, typingSpeed);
+          }
+      }
+
+      function clearForm() {
+        document.getElementById('contact-form').reset();  // Reset the form fields
+    }
+      // Start the typing effect when the page loads
+      window.onload = () => {
+          typeWriter();
+      };
+  </script>
+  <script>
+    $(document).ready(function(){
+        $('#mode').click(function(){
+            var currentcolor = $('body').css('background-color');
+            if (currentcolor === 'rgb(0, 0, 0)') {
+                $('body').css('background-color', 'white');
+            } else {
+                // Set dark mode styles
+                $('body').css({'background-color':'#333','color':'white'});
+                $('.about-content').css('color', 'white');
+                $('.college').css('color', 'white');
+                $('.btn2').css('background-color', 'rgb(55, 155, 168)');
+                $('.btn3').css('background-color', 'rgb(55, 155, 168)');
+                $('.icon').css('color', 'white');
+                $('#image_pic').css('box-shadow', '12px 12px 15px #5f5f5f');
+                $('input').css({
+                    'background-color': 'rgba(225,225,225,0.2)',
+                    'border': 'none',
+                    'color': 'white'
+                });
+                $('textarea').css({
+                    'background-color': 'rgba(225,225,225,0.2)',
+                    'border': 'none',
+                    'color': 'white'
+                });
+                $('.resume-btn').css('background-color', 'rgb(55, 155, 168)');
+                $('.navbar-brand').css('color', 'white');
+                $('.nav-link').css('color', 'white');
+                $('.skill_img').css('color', 'white');
+                $('#navbar').css('background-color','#333');
+                
+            }
+        });
+    });
+</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

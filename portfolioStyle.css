@@ -1,0 +1,256 @@
+.animate_heading{
+    color: rgb(55, 155, 168);
+    text-shadow: 10px 10px 3px rgba(55, 155, 168,0.2);
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    }
+    
+    /*home page*/
+    .navbar-toggler{
+    outline: none;
+    border: none;
+    
+    }
+    .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(55, 155, 168);
+    }
+    
+    #navbar {
+      background-color: white; 
+      width: 100%; 
+      position: fixed; /* This makes the navbar fixed */
+      top: 0; /*Stick to the top;*/
+      z-index: 1000; /* Ensure it's on top of other content and is not overlaped by other elements*/
+    }
+      .container1{
+      height: auto;
+      padding-bottom: 90px;
+    }
+    .header{
+      height: auto;
+      margin-top: 170px;
+      text-align: center;
+    }
+    #image_pic {
+    box-shadow: 8px 8px 15px rgba(78, 81, 82, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    }
+    #mode{
+      border:none;
+      background-color: rgba(0, 0, 0,0);
+      float:right;
+      margin-top: 70px;
+    }
+    
+    .icon{
+    padding: 5px;
+    font-size: 30px;
+    color: #333;
+    }
+    .icon:hover{
+    color: rgb(55, 155, 168);
+    transform: scale(1.1);
+    transition: ease;
+    }
+    
+    .name{
+      font-size: 50px;
+      font-family:monospace;
+      text-align: center;
+      
+    }
+    .prof{
+      font-style: oblique;
+      font-size: 35px;
+      color:rgb(55, 155, 168);
+    }
+    
+    /*About me*/
+    .name-heading {
+    font-size: 40px;
+    color: #333;
+    letter-spacing: 1px;
+    }
+    
+    .profession {
+    font-style: italic;
+    color: #379ba8;
+    font-size: 28px;
+    }
+    .college {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    }
+    
+    .about-content {
+    font-size: 18px;
+    color: #555;
+    line-height: 2;
+    margin-top: 20px;
+    }
+    .resume-btn{
+    background-color: #333;
+    color: white;
+    border: none;
+    }
+    .resume-btn:hover{
+    background-color: rgb(55, 155, 168);
+    box-shadow: 2px 2px 15px rgb(55, 155, 168);
+    }
+    
+    /* Academics */
+    table{
+    font-size: 20px;
+    color: #a09d9d;
+    }
+    .links:link{
+      color: #555;
+    }
+    .links:hover{
+      color:#379ba8;
+    }
+    .links:visited{
+      color: #555;
+    } 
+    
+    
+    /*projects*/
+    .mainbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    }
+    .box{
+    position: relative;
+    width: 380px;
+    }
+    .image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    }
+    .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image:linear-gradient(rgba(0,0,0,0),rgb(55, 155, 168));
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 30px;
+    }
+    
+    .box:hover .overlay {
+    height: 100%;
+    }
+    
+    .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+    .text h5{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    }
+    .text p{
+    font-size: 16px;
+    }
+    
+    
+    /*skills*/
+    .containermain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .content{
+      width: 300px;
+      height: auto;
+      text-align: center;
+      box-shadow: 0 8px 12px 0 rgba(225,225,225,0.2),0px 12px 10px 8px rgba(225,225,225,0.4);
+    }
+    .img i{
+      font-size: 40px;
+      padding-top: 40px;
+      color: #333;
+    }
+    .imgHeader{
+      text-align: center;
+      color: rgb(55, 155, 168);
+      
+    }
+    .description{
+    font-size: 17px;
+    }
+    .content:hover{
+      transform: scale(1.09);
+      transition: 1s ease;
+      box-shadow:  2px 2px 20px rgb(55, 155, 168);
+    }
+    
+    /*contact*/
+    .box1{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .box1Content{
+    font-size: 18px;
+    font-weight: 600;
+    }
+    ::placeholder{
+    font-weight: 200;
+    }
+    input{
+    height: 50px;
+    box-shadow: 4px 4px 4px rgb(219, 219, 219);
+    }
+    textarea{
+    box-shadow: 4px 4px 4px rgb(219, 219, 219);
+    }
+    input:hover{
+    box-shadow: 2px 1px 10px rgb(55, 155, 168);
+    }
+    textarea:hover{
+    box-shadow: 2px 1px 10px rgb(55, 155, 168);
+    }
+    .btn2,.btn3{
+    background-color:#333;
+    border: none;
+    }
+    .btn2:hover{
+    background-color: rgb(55, 155, 168);
+    box-shadow: 2px 2px 15px rgb(55, 155, 168)
+    }
+    .btn3:hover{
+    background-color: rgb(55, 155, 168);
+    box-shadow: 2px 2px 15px rgb(55, 155, 168)
+    }
+    
+    .btngroup{
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
